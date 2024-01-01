@@ -49,6 +49,10 @@ span{
 	justify-content:space-evenly;
 	margin-top:15px;
 }
+.media-icons{
+	display:flex;
+	gap:5px;
+}
 .content{
 	padding-bottom:30px
 }
