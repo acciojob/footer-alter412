@@ -1,8 +1,13 @@
 /* your code here */
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
 .fa {
    padding: 10px;
   font-size: 20px;
-  width: 20px;
+  width: 35px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -33,6 +38,51 @@
   background: #ea4c89;
   color: white;
 }
+span{
+	color:white;
+}
 .content{
-	
+	background-color:black;
+}
+.link-boxes{
+	display:flex;
+	justify-content:space-around;
+}
+.content{
+	padding-bottom:30px
+}
+.links,.services,.otherServices,.contact{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	gap:5px;
+	align-items:left;
+}
+.contact{
+	justify-content:start;
+}
+.bottom-details{
+	background-color: grey;
+	display:flex;
+	justify-content:space-between;
+	padding:20px;
+}
+.logo_name{
+	font-size:25px;
+	font-weight:500;
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:20px;
+}
+a{
+	text-decoration:none;
+	color:graytext;
+}
+hr{
+	color:white;
+	width:30px;
+	text-align:left;
 }
