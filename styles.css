@@ -46,7 +46,8 @@ span{
 }
 .link-boxes{
 	display:flex;
-	justify-content:space-around;
+	justify-content:space-evenly;
+	margin-top:15px;
 }
 .content{
 	padding-bottom:30px
